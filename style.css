@@ -1,0 +1,52 @@
+*{
+  border-radius:20px;
+}
+
+.social-section{
+  padding:100px 8%;
+  text-align:center;
+}
+
+.social-boxes{
+  display:flex;
+  justify-content:center;
+  gap:30px;
+  flex-wrap:wrap;
+}
+
+.social-boxes a{
+  padding:25px 60px;
+  background:#39ff14;
+  color:black;
+  text-decoration:none;
+  font-weight:900;
+  border-radius:20px;
+  font-size:22px;
+}
+
+footer{
+  text-align:center;
+  padding:60px 20px;
+  background:black;
+}
+
+@media(max-width:900px){
+
+  nav{
+    display:none;
+  }
+
+  .hero-content h1{
+    font-size:45px;
+  }
+
+  .info{
+    flex-direction:column;
+  }
+
+  .info .text,
+  .info .image{
+    width:100%;
+  }
+
+}
